@@ -1,3 +1,4 @@
+import base64
 from flask import Blueprint, request, jsonify
 from ..db import get_connection
  
@@ -38,3 +39,32 @@ def register():
                 }), 201
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+    
+@auth_bp.post('/login')
+def login():
+    try:
+        data = request.get_json()
+        email = data.get('email')
+        password = data.get('password')
+        # Basic input validation
+        if not email or not password:
+            return jsonify({'error': 'Email and password are required'}), 400
+        conn = get_connection()
+        cur = conn.cursor()
+        # Check for the user
+        cur.execute(
+            "SELECT id, username FROM users WHERE email = %s AND password = %s",
+            (email, password)
+        )
+        user = cur.fetchone()
+        cur.close()
+        conn.close()
+        print(user)
+        if user:
+            return jsonify({
+               'X-API-Key': base64.b64encode(str(user[0]).encode()).decode()
+            }), 200
+        else:
+            return jsonify({'error': 'Invalid email or password'}), 401
+    except Exception as e:
+        return jsonify({'error': 'Server error', 'details': str(e)}), 500
