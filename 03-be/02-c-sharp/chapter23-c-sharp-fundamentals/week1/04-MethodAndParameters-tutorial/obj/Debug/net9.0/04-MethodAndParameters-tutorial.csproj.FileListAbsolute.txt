@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\bin\Debug\net9.0\04-MethodAndParameters-tutorial.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\bin\Debug\net9.0\04-MethodAndParameters-tutorial.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\bin\Debug\net9.0\04-MethodAndParameters-tutorial.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\bin\Debug\net9.0\04-MethodAndParameters-tutorial.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\bin\Debug\net9.0\04-MethodAndParameters-tutorial.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\refint\04-MethodAndParameters-tutorial.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\04-MethodAndParameters-tutorial.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-MethodAndParameters-tutorial\obj\Debug\net9.0\ref\04-MethodAndParameters-tutorial.dll

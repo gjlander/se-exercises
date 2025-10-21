@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\bin\Debug\net9.0\01-HelloThere.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\bin\Debug\net9.0\01-HelloThere.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\bin\Debug\net9.0\01-HelloThere.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\bin\Debug\net9.0\01-HelloThere.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\bin\Debug\net9.0\01-HelloThere.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\refint\01-HelloThere.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\01-HelloThere.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\01-HelloThere\obj\Debug\net9.0\ref\01-HelloThere.dll

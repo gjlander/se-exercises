@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\bin\Debug\net9.0\06-ValueVsReferenceTypes.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\bin\Debug\net9.0\06-ValueVsReferenceTypes.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\bin\Debug\net9.0\06-ValueVsReferenceTypes.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\bin\Debug\net9.0\06-ValueVsReferenceTypes.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\bin\Debug\net9.0\06-ValueVsReferenceTypes.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\refint\06-ValueVsReferenceTypes.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\06-ValueVsReferenceTypes.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\06-ValueVsReferenceTypes\obj\Debug\net9.0\ref\06-ValueVsReferenceTypes.dll

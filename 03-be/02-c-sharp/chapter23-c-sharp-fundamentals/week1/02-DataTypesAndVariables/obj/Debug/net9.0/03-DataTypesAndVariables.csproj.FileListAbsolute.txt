@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\bin\Debug\net9.0\03-DataTypesAndVariables.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\bin\Debug\net9.0\03-DataTypesAndVariables.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\bin\Debug\net9.0\03-DataTypesAndVariables.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\bin\Debug\net9.0\03-DataTypesAndVariables.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\bin\Debug\net9.0\03-DataTypesAndVariables.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\refint\03-DataTypesAndVariables.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\03-DataTypesAndVariables.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\03-DataTypesAndVariables\obj\Debug\net9.0\ref\03-DataTypesAndVariables.dll

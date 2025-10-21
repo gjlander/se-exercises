@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\bin\Debug\net9.0\09-InheritanceExercise.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\bin\Debug\net9.0\09-InheritanceExercise.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\bin\Debug\net9.0\09-InheritanceExercise.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\bin\Debug\net9.0\09-InheritanceExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\bin\Debug\net9.0\09-InheritanceExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\refint\09-InheritanceExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\09-InheritanceExercise.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\09-InheritanceExercise\obj\Debug\net9.0\ref\09-InheritanceExercise.dll

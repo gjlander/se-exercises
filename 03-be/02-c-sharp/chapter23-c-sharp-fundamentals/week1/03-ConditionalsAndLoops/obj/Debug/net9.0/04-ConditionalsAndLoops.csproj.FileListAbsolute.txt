@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\bin\Debug\net9.0\04-ConditionalsAndLoops.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\bin\Debug\net9.0\04-ConditionalsAndLoops.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\bin\Debug\net9.0\04-ConditionalsAndLoops.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\bin\Debug\net9.0\04-ConditionalsAndLoops.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\bin\Debug\net9.0\04-ConditionalsAndLoops.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\refint\04-ConditionalsAndLoops.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\04-ConditionalsAndLoops.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\04-ConditionalsAndLoops\obj\Debug\net9.0\ref\04-ConditionalsAndLoops.dll

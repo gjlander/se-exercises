@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\bin\Debug\net9.0\08-EncapsulationExercise.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\bin\Debug\net9.0\08-EncapsulationExercise.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\bin\Debug\net9.0\08-EncapsulationExercise.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\bin\Debug\net9.0\08-EncapsulationExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\bin\Debug\net9.0\08-EncapsulationExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\refint\08-EncapsulationExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\08-EncapsulationExercise.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\08-EncapsulationExercise\obj\Debug\net9.0\ref\08-EncapsulationExercise.dll

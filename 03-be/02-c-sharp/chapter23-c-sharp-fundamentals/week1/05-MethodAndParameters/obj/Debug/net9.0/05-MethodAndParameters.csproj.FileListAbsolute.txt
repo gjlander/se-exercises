@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\bin\Debug\net9.0\05-MethodAndParameters.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\bin\Debug\net9.0\05-MethodAndParameters.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\bin\Debug\net9.0\05-MethodAndParameters.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\bin\Debug\net9.0\05-MethodAndParameters.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\bin\Debug\net9.0\05-MethodAndParameters.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\refint\05-MethodAndParameters.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\05-MethodAndParameters.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\05-MethodAndParameters\obj\Debug\net9.0\ref\05-MethodAndParameters.dll

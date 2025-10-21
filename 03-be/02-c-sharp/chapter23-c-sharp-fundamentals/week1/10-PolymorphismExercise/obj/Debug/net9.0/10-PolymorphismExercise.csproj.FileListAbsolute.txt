@@ -1,0 +1,14 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\bin\Debug\net9.0\10-PolymorphismExercise.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\bin\Debug\net9.0\10-PolymorphismExercise.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\bin\Debug\net9.0\10-PolymorphismExercise.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\bin\Debug\net9.0\10-PolymorphismExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\bin\Debug\net9.0\10-PolymorphismExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\refint\10-PolymorphismExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\10-PolymorphismExercise.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week1\10-PolymorphismExercise\obj\Debug\net9.0\ref\10-PolymorphismExercise.dll
