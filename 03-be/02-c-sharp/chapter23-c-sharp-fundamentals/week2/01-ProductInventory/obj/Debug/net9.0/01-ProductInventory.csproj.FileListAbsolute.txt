@@ -1,0 +1,15 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\bin\Debug\net9.0\01-ProductInventory.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\bin\Debug\net9.0\01-ProductInventory.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\bin\Debug\net9.0\01-ProductInventory.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\bin\Debug\net9.0\01-ProductInventory.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\bin\Debug\net9.0\01-ProductInventory.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.sourcelink.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\refint\01-ProductInventory.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\01-ProductInventory.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\01-ProductInventory\obj\Debug\net9.0\ref\01-ProductInventory.dll
