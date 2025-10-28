@@ -1,0 +1,15 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\bin\Debug\net9.0\03-LinqProjections.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\bin\Debug\net9.0\03-LinqProjections.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\bin\Debug\net9.0\03-LinqProjections.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\bin\Debug\net9.0\03-LinqProjections.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\bin\Debug\net9.0\03-LinqProjections.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.sourcelink.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\refint\03-LinqProjections.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\03-LinqProjections.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\03-LinqProjections\obj\Debug\net9.0\ref\03-LinqProjections.dll

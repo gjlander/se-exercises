@@ -1,0 +1,15 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\bin\Debug\net9.0\06-DiaryApp.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\bin\Debug\net9.0\06-DiaryApp.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\bin\Debug\net9.0\06-DiaryApp.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\bin\Debug\net9.0\06-DiaryApp.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\bin\Debug\net9.0\06-DiaryApp.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.sourcelink.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\refint\06-DiaryApp.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\06-DiaryApp.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\06-DiaryApp\obj\Debug\net9.0\ref\06-DiaryApp.dll

@@ -1,0 +1,15 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\bin\Debug\net9.0\05-ErrorHandlingExercise.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\bin\Debug\net9.0\05-ErrorHandlingExercise.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\bin\Debug\net9.0\05-ErrorHandlingExercise.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\bin\Debug\net9.0\05-ErrorHandlingExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\bin\Debug\net9.0\05-ErrorHandlingExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.sourcelink.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\refint\05-ErrorHandlingExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\05-ErrorHandlingExercise.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\05-ErrorHandlingExercise\obj\Debug\net9.0\ref\05-ErrorHandlingExercise.dll
