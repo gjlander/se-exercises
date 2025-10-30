@@ -1,0 +1,15 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\bin\Debug\net9.0\07-ContactBook.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\bin\Debug\net9.0\07-ContactBook.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\bin\Debug\net9.0\07-ContactBook.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\bin\Debug\net9.0\07-ContactBook.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\bin\Debug\net9.0\07-ContactBook.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.sourcelink.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\refint\07-ContactBook.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\07-ContactBook.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week2\07-ContactBook\obj\Debug\net9.0\ref\07-ContactBook.dll

@@ -3,7 +3,7 @@ namespace Services;
 using Models;
 public class ProductInventoryService : IProductInventoryService
 {
-  private ICollection<Product> _products = [];
+  private readonly ICollection<Product> _products = [];
 
   public IReadOnlyCollection<Product> Products => (IReadOnlyCollection<Product>)_products;
 

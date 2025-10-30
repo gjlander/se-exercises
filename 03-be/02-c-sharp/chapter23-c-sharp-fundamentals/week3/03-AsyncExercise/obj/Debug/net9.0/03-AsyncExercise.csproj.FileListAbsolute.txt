@@ -1,0 +1,15 @@
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\bin\Debug\net9.0\03-AsyncExercise.exe
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\bin\Debug\net9.0\03-AsyncExercise.deps.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\bin\Debug\net9.0\03-AsyncExercise.runtimeconfig.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\bin\Debug\net9.0\03-AsyncExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\bin\Debug\net9.0\03-AsyncExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.AssemblyInfoInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.AssemblyInfo.cs
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.csproj.CoreCompileInputs.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.sourcelink.json
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\refint\03-AsyncExercise.dll
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.pdb
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\03-AsyncExercise.genruntimeconfig.cache
+C:\Users\garre\Desktop\exercises\se-exercises\03-be\02-c-sharp\chapter23-c-sharp-fundamentals\week3\03-AsyncExercise\obj\Debug\net9.0\ref\03-AsyncExercise.dll
