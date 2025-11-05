@@ -1,4 +1,6 @@
-venv
-.env
 .vscode
+venv
 __pycache__
+.env
+bin/
+obj/
