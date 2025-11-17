@@ -24,7 +24,7 @@ empRepo.Delete(1);
 Console.WriteLine("After deleting Id=1, remaining:");
 foreach (var emp in empRepo.GetAll()) Console.WriteLine("  " + emp);
 
-Console.WriteLine("== Employees ==");
+Console.WriteLine("== BlogPosts ==");
 var blogRepo = new GenericRepository<BlogPost>();
 blogRepo.Add(new BlogPost { Id = 1, Title = "Generics in C#", Likes = 10 });
 blogRepo.Add(new BlogPost { Id = 2, Title = "Understanding Delegates", Likes = 25 });

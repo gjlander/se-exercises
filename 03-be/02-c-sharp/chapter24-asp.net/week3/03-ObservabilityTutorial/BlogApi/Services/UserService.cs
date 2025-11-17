@@ -9,10 +9,13 @@ public class UserService : IUserService
     private readonly ApplicationDbContext _db;
     private readonly ILogger<UserService> _logger;
 
-    public UserService(ApplicationDbContext db, ILogger<UserService> logger)
+    private readonly IMetricsService _metrics;
+
+    public UserService(ApplicationDbContext db, ILogger<UserService> logger, IMetricsService metrics)
     {
         _db = db;
         _logger = logger;
+        _metrics = metrics;
     }
 
     public async Task<User?> GetAsync(Guid id)
@@ -38,6 +41,7 @@ public class UserService : IUserService
 
         _db.Users.Add(user);
         await _db.SaveChangesAsync();
+        _metrics.RecordUserCreated();
         return user;
     }
 

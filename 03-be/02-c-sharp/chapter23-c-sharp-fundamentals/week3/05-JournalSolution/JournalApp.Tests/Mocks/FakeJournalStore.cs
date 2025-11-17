@@ -13,7 +13,6 @@ public sealed class FakeJournalStore : IJournalStore
   {
     // Replace or add the entry
     _entries[entry.Id] = entry;
-
   }
 
   public async Task<IReadOnlyList<JournalEntry>> QueryAsync(Func<JournalEntry, bool> predicate, CancellationToken ct = default)

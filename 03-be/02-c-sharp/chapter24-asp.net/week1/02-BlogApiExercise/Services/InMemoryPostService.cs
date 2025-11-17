@@ -16,6 +16,7 @@ public sealed class InMemoryPostService : IPostService
   public async Task<IReadOnlyList<Post>> ListAsync()
   {
     return [.. _posts.Values];
+    // return Task.FromResult<IReadOnlyList<Post>>(_posts.Values.ToList());
   }
   public async Task<IReadOnlyList<Post>> ListByUserAsync(Guid userId)
   {

@@ -1,13 +1,11 @@
 using JournalApp.Services;
 using JournalApp.Storage;
-using JournalApp.Models;
-
-namespace JournalApp.Tests.Mocks;
+using JournalApp.Tests.Mocks;
 
 public class JournalServiceTests
 {
   [Fact]
-  public async Task AddEntrySync_TrimsAndSaves()
+  public async Task AddEntryASync_TrimsAndSaves()
   {
     IJournalStore fakeStore = new FakeJournalStore();
     var service = new JournalService(fakeStore);

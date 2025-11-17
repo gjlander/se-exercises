@@ -18,7 +18,7 @@ public class GenericRepository<T> where T : class, IIdentifiable
 
   public bool Update(T item) // replace existing by Id
   {
-    if (_store.ContainsKey(item.Id)) return false;
+    if (!_store.ContainsKey(item.Id)) return false;
     _store[item.Id] = item;
     return true;
   }

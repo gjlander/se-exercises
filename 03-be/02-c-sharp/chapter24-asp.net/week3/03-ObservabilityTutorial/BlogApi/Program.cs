@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System.Text;
 using Serilog;
 using Serilog.Events;
@@ -48,6 +49,15 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddOpenApi();
 
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<ApplicationDbContext>() // Check database connectivity
+    .AddCheck("self", () => HealthCheckResult.Healthy("API is running"))
+    .AddCheck<CustomHealthCheck>("custom-check"); // Custom business logic check
+// Register custom health check
+builder.Services.AddScoped<CustomHealthCheck>();
+
+builder.Services.AddSingleton<IMetricsService, MetricsService>();
+
 builder.Host.UseSerilog((context, configuration) =>
 {
     configuration
@@ -87,6 +97,8 @@ app.UseAuthorization();
 app.MapAuthEndpoints();
 app.MapUserEndpoints();
 app.MapPostEndpoints();
+app.MapHealthEndpoints();
+
 
 app.Run();
 
