@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pIuu9O8j63k=",
+  "dgSpecHash": "OykJl33xkyw=",
   "success": true,
   "projectFilePath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\03-AsyncExercise.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\garre\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

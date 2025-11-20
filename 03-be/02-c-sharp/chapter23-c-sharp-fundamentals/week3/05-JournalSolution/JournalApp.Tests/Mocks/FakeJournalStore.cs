@@ -6,7 +6,6 @@ namespace JournalApp.Tests.Mocks;
 
 public sealed class FakeJournalStore : IJournalStore
 {
-  // Using a thread-safe dictionary to simulate storage
   private readonly Dictionary<Guid, JournalEntry> _entries = new();
 
   public async Task SaveAsync(JournalEntry entry, CancellationToken ct = default)

@@ -84,11 +84,11 @@ public class JsonJournalStoreTests
     ];
 
     var jsonStore = new JsonJournalStore(dbPath);
-    var entries = new List<JournalEntry> {
+    JournalEntry[] entries = [
       new() { Content = entryContents[0] },
       new() { Content = entryContents[1] },
       new() { Content = entryContents[2] }
-      };
+    ];
 
     foreach (var entry in entries)
     {
