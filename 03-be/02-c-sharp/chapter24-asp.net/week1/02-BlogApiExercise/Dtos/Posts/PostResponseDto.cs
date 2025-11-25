@@ -1,3 +1,3 @@
 namespace BlogApi.Dtos.Posts;
 
-public record UpdatePostDto(string? Title, string? Content);
+public record PostResponseDto(Guid Id, Guid UserId, string Title, string Content, DateTimeOffset PublishedAt);
