@@ -1,7 +1,7 @@
-using BlogApi.Dtos.Users;
-using BlogApi.Services;
+using DuckPondApi.Dtos.Users;
+using DuckPondApi.Services;
 
-namespace BlogApi.Endpoints;
+namespace DuckPondApi.Endpoints;
 
 public static class UserEndpoints
 {
@@ -15,18 +15,21 @@ public static class UserEndpoints
             var users = await userService.ListAsync();
             var userDtos = users.Select(u => new UserResponseDto(u.Id, u.Name, u.Email, u.CreatedAt));
             return Results.Ok(userDtos);
-        });
+        })
+        .Produces<IEnumerable<UserResponseDto>>();
 
         // GET /users/{id:guid}
         group.MapGet("/{id:guid}", async (Guid id, IUserService userService) =>
         {
             var user = await userService.GetAsync(id);
-            if (user is null)
+            if (user == null)
                 return Results.NotFound();
 
             var userDto = new UserResponseDto(user.Id, user.Name, user.Email, user.CreatedAt);
             return Results.Ok(userDto);
-        });
+        })
+        .Produces<UserResponseDto>()
+        .ProducesProblem(StatusCodes.Status404NotFound);
 
         // POST /users
         group.MapPost("/", async (CreateUserDto createUserDto, IUserService userService, HttpContext context) =>
@@ -36,25 +39,30 @@ public static class UserEndpoints
 
             var location = $"{context.Request.Scheme}://{context.Request.Host}/users/{user.Id}";
             return Results.Created(location, userDto);
-        }).WithValidation<CreateUserDto>();
+        })
+        .WithValidation<CreateUserDto>()
+        .Produces<UserResponseDto>(StatusCodes.Status201Created);
 
         // PATCH /users/{id:guid}
         group.MapPatch("/{id:guid}", async (Guid id, UpdateUserDto updateUserDto, IUserService userService) =>
         {
             var user = await userService.UpdateAsync(id, updateUserDto.Name, updateUserDto.Email);
-            if (user is null)
+            if (user == null)
                 return Results.NotFound();
 
             var userDto = new UserResponseDto(user.Id, user.Name, user.Email, user.CreatedAt);
             return Results.Ok(userDto);
-        }).WithValidation<UpdateUserDto>();
+        })
+        .WithValidation<UpdateUserDto>()
+        .Produces<UserResponseDto>()
+        .ProducesProblem(StatusCodes.Status404NotFound);
 
         // DELETE /users/{id:guid}
         group.MapDelete("/{id:guid}", async (Guid id, IUserService userService, IPostService postService) =>
         {
             // Check if user exists
             var user = await userService.GetAsync(id);
-            if (user is null)
+            if (user == null)
                 return Results.NotFound();
 
             // Check if user has posts
@@ -67,18 +75,23 @@ public static class UserEndpoints
             // Delete the user
             var deleted = await userService.DeleteAsync(id);
             return deleted ? Results.NoContent() : Results.NotFound();
-        });
+        })
+        .ProducesProblem(StatusCodes.Status400BadRequest)
+        .ProducesProblem(StatusCodes.Status404NotFound)
+        .Produces(StatusCodes.Status204NoContent);
 
         // GET /users/{id:guid}/posts
         group.MapGet("/{id:guid}/posts", async (Guid id, IUserService userService, IPostService postService) =>
         {
             var user = await userService.GetAsync(id);
-            if (user is null)
+            if (user == null)
                 return Results.NotFound();
 
             var posts = await postService.ListByUserAsync(id);
-            var postDtos = posts.Select(p => new BlogApi.Dtos.Posts.PostResponseDto(p.Id, p.UserId, p.Title, p.Content, p.PublishedAt));
+            var postDtos = posts.Select(p => new DuckPondApi.Dtos.Posts.PostResponseDto(p.Id, p.UserId, p.Title, p.Content, p.PublishedAt));
             return Results.Ok(postDtos);
-        });
+        })
+        .Produces<IEnumerable<DuckPondApi.Dtos.Posts.PostResponseDto>>()
+        .ProducesProblem(StatusCodes.Status404NotFound);
     }
 }

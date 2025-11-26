@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-DuckPondApi", "07-DuckPondApi.csproj", "{9F0FB147-AF6C-D59A-4D50-AAB74581A438}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0FB147-AF6C-D59A-4D50-AAB74581A438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0FB147-AF6C-D59A-4D50-AAB74581A438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0FB147-AF6C-D59A-4D50-AAB74581A438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0FB147-AF6C-D59A-4D50-AAB74581A438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D983A33-955D-436D-AB26-4DCE153CD567}
+	EndGlobalSection
+EndGlobal

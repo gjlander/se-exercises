@@ -33,7 +33,8 @@ public static class PostEndpoints
       catch (ArgumentException)
       {
 
-        return Results.BadRequest(new { error = "User not found" });
+        // return Results.BadRequest(new { error = "User not found" });
+        return Results.Problem(detail: "User not found", statusCode: StatusCodes.Status400BadRequest);
       }
 
 
