@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DuckPondApi.Dtos.Posts;
+namespace DuckPondApi.Dtos.Ducks;
 
-public record UpdatePostDto(
+public record UpdateDuckDto(
 
     [property: StringLength(255, MinimumLength = 1)]
     string? Name,

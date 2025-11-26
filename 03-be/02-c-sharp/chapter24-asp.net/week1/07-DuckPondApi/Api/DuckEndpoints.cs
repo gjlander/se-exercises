@@ -1,0 +1,78 @@
+using DuckPondApi.Dtos.Ducks;
+using DuckPondApi.Services;
+
+namespace DuckPondApi.Endpoints;
+
+public static class DuckEndpoints
+{
+    public static void MapDuckEndpoints(this IEndpointRouteBuilder app)
+    {
+        var group = app.MapGroup("/ducks").WithTags("Ducks");
+
+        // GET /ducks
+        group.MapGet("/", async (IDuckService duckService) =>
+        {
+            var ducks = await duckService.ListAsync();
+            var duckDtos = ducks.Select(p => new DuckResponseDto(p.Id, p.UserId, p.Name, p.Quote, p.Image, p.PublishedAt));
+            return TypedResults.Ok(duckDtos);
+        })
+        .Produces<IEnumerable<DuckResponseDto>>();
+
+        // GET /ducks/{id:guid}
+        group.MapGet("/{id:guid}", async (Guid id, IDuckService duckService) =>
+        {
+            var duck = await duckService.GetAsync(id);
+            if (duck is null)
+                return Results.Problem(detail: "Duck not found", statusCode: StatusCodes.Status404NotFound);
+
+            var duckDto = new DuckResponseDto(duck.Id, duck.UserId, duck.Name, duck.Quote, duck.Image, duck.PublishedAt);
+            return TypedResults.Ok(duckDto);
+        })
+        .Produces<DuckResponseDto>()
+        .ProducesProblem(StatusCodes.Status404NotFound);
+
+        // POST /ducks
+        group.MapPost("/", async (CreateDuckDto createDuckDto, IDuckService duckService, HttpContext context) =>
+        {
+            try
+            {
+                var duck = await duckService.CreateAsync(createDuckDto.UserId, createDuckDto.Name, createDuckDto.Quote, createDuckDto.Image);
+                var duckDto = new DuckResponseDto(duck.Id, duck.UserId, duck.Name, duck.Quote, duck.Image, duck.PublishedAt);
+
+                var location = $"{context.Request.Scheme}://{context.Request.Host}/ducks/{duck.Id}";
+                return TypedResults.Created(location, duckDto);
+            }
+            catch (ArgumentException)
+            {
+                return Results.Problem(detail: "Invalid User Id", statusCode: StatusCodes.Status400BadRequest);
+            }
+        })
+        .Produces<DuckResponseDto>(StatusCodes.Status201Created)
+        .ProducesProblem(StatusCodes.Status400BadRequest)
+        .WithValidation<CreateDuckDto>();
+
+        // PATCH /ducks/{id:guid}
+        group.MapPatch("/{id:guid}", async (Guid id, UpdateDuckDto updateDuckDto, IDuckService duckService) =>
+        {
+            var duck = await duckService.UpdateAsync(id, updateDuckDto.Name, updateDuckDto.Quote, updateDuckDto.Image);
+            if (duck is null)
+                return Results.Problem(detail: "Duck not found", statusCode: StatusCodes.Status404NotFound);
+
+            var duckDto = new DuckResponseDto(duck.Id, duck.UserId, duck.Name, duck.Quote, duck.Image, duck.PublishedAt);
+            return TypedResults.Ok(duckDto);
+        })
+        .WithValidation<UpdateDuckDto>()
+        .Produces<DuckResponseDto>(StatusCodes.Status200OK)
+        .ProducesProblem(StatusCodes.Status400BadRequest)
+        .ProducesProblem(StatusCodes.Status404NotFound);
+
+        // DELETE /ducks/{id:guid}
+        group.MapDelete("/{id:guid}", async (Guid id, IDuckService duckService) =>
+        {
+            var deleted = await duckService.DeleteAsync(id);
+            return deleted ? Results.NoContent() : Results.Problem(detail: "Duck not found", statusCode: StatusCodes.Status404NotFound);
+        })
+        .Produces(StatusCodes.Status204NoContent)
+        .ProducesProblem(StatusCodes.Status404NotFound);
+    }
+}

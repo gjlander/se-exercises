@@ -1,4 +1,5 @@
 using DuckPondApi.Dtos.Users;
+using DuckPondApi.Dtos.Ducks;
 using DuckPondApi.Services;
 
 namespace DuckPondApi.Endpoints;
@@ -14,7 +15,7 @@ public static class UserEndpoints
         {
             var users = await userService.ListAsync();
             var userDtos = users.Select(u => new UserResponseDto(u.Id, u.Name, u.Email, u.CreatedAt));
-            return Results.Ok(userDtos);
+            return TypedResults.Ok(userDtos);
         })
         .Produces<IEnumerable<UserResponseDto>>();
 
@@ -22,11 +23,11 @@ public static class UserEndpoints
         group.MapGet("/{id:guid}", async (Guid id, IUserService userService) =>
         {
             var user = await userService.GetAsync(id);
-            if (user == null)
-                return Results.NotFound();
+            if (user is null)
+                return Results.Problem(detail: "User not found", statusCode: StatusCodes.Status404NotFound);
 
             var userDto = new UserResponseDto(user.Id, user.Name, user.Email, user.CreatedAt);
-            return Results.Ok(userDto);
+            return TypedResults.Ok(userDto);
         })
         .Produces<UserResponseDto>()
         .ProducesProblem(StatusCodes.Status404NotFound);
@@ -38,7 +39,7 @@ public static class UserEndpoints
             var userDto = new UserResponseDto(user.Id, user.Name, user.Email, user.CreatedAt);
 
             var location = $"{context.Request.Scheme}://{context.Request.Host}/users/{user.Id}";
-            return Results.Created(location, userDto);
+            return TypedResults.Created(location, userDto);
         })
         .WithValidation<CreateUserDto>()
         .Produces<UserResponseDto>(StatusCodes.Status201Created);
@@ -47,51 +48,65 @@ public static class UserEndpoints
         group.MapPatch("/{id:guid}", async (Guid id, UpdateUserDto updateUserDto, IUserService userService) =>
         {
             var user = await userService.UpdateAsync(id, updateUserDto.Name, updateUserDto.Email);
-            if (user == null)
-                return Results.NotFound();
+            if (user is null)
+                return Results.Problem(detail: "User not found", statusCode: StatusCodes.Status404NotFound);
 
             var userDto = new UserResponseDto(user.Id, user.Name, user.Email, user.CreatedAt);
-            return Results.Ok(userDto);
+            return TypedResults.Ok(userDto);
         })
         .WithValidation<UpdateUserDto>()
         .Produces<UserResponseDto>()
         .ProducesProblem(StatusCodes.Status404NotFound);
 
         // DELETE /users/{id:guid}
-        group.MapDelete("/{id:guid}", async (Guid id, IUserService userService, IPostService postService) =>
+        group.MapDelete("/{id:guid}", async (Guid id, IUserService userService, IDuckService duckService) =>
         {
-            // Check if user exists
-            var user = await userService.GetAsync(id);
-            if (user == null)
-                return Results.NotFound();
+            var found = await userService.DeleteAsync(id);
 
-            // Check if user has posts
-            var userPosts = await postService.ListByUserAsync(id);
-            if (userPosts.Any())
+            if (!found) return Results.Problem(detail: "User not found", statusCode: StatusCodes.Status404NotFound);
+
+            var posts = await duckService.ListByUserAsync(id);
+
+            foreach (var post in posts)
             {
-                return Results.BadRequest("Cannot delete user with existing posts. Please delete all posts first.");
+                await duckService.DeleteAsync(post.Id);
             }
 
-            // Delete the user
-            var deleted = await userService.DeleteAsync(id);
-            return deleted ? Results.NoContent() : Results.NotFound();
+            return TypedResults.NoContent();
+
+
+            // // Check if user exists
+            // var user = await userService.GetAsync(id);
+            // if (user is null)
+            //     return Results.NotFound();
+
+            // // Check if user has ducks
+            // var userDucks = await duckService.ListByUserAsync(id);
+            // if (userDucks.Any())
+            // {
+            //     return Results.BadRequest("Cannot delete user with existing ducks. Please delete all ducks first.");
+            // }
+
+            // // Delete the user
+            // var deleted = await userService.DeleteAsync(id);
+            // return deleted ? Results.NoContent() : Results.NotFound();
         })
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .Produces(StatusCodes.Status204NoContent);
 
-        // GET /users/{id:guid}/posts
-        group.MapGet("/{id:guid}/posts", async (Guid id, IUserService userService, IPostService postService) =>
+        // GET /users/{id:guid}/ducks
+        group.MapGet("/{id:guid}/ducks", async (Guid id, IUserService userService, IDuckService duckService) =>
         {
             var user = await userService.GetAsync(id);
-            if (user == null)
-                return Results.NotFound();
+            if (user is null)
+                return Results.Problem(detail: "User not found", statusCode: StatusCodes.Status404NotFound);
 
-            var posts = await postService.ListByUserAsync(id);
-            var postDtos = posts.Select(p => new DuckPondApi.Dtos.Posts.PostResponseDto(p.Id, p.UserId, p.Title, p.Content, p.PublishedAt));
-            return Results.Ok(postDtos);
+            var ducks = await duckService.ListByUserAsync(id);
+            var duckDtos = ducks.Select(d => new DuckResponseDto(d.Id, d.UserId, d.Name, d.Quote, d.Image, d.PublishedAt));
+            return TypedResults.Ok(duckDtos);
         })
-        .Produces<IEnumerable<DuckPondApi.Dtos.Posts.PostResponseDto>>()
+        .Produces<IEnumerable<DuckResponseDto>>()
         .ProducesProblem(StatusCodes.Status404NotFound);
     }
 }
