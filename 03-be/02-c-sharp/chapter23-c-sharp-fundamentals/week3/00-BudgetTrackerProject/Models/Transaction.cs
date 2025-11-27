@@ -1,4 +1,4 @@
-namespace BudgerTracker.Models;
+namespace BudgetTracker.Models;
 
 public class Transaction
 {
