@@ -29,6 +29,7 @@ public class TransactionServiceMock : ITransactionService
             Type = createTransactionDto.Type,
             Description = createTransactionDto.Description,
             Amount = createTransactionDto.Amount,
+            Date = createTransactionDto.Date ?? DateOnly.FromDateTime(DateTime.Now)
         };
 
         _transactions[transaction.Id] = transaction;
@@ -48,6 +49,9 @@ public class TransactionServiceMock : ITransactionService
 
         if (updateTransactionDto.Amount is not null)
             transaction.Amount = (decimal)updateTransactionDto.Amount;
+
+        if (updateTransactionDto.Date is not null)
+            transaction.Date = (DateOnly)updateTransactionDto.Date;
 
         return Task.FromResult<Transaction?>(transaction);
     }

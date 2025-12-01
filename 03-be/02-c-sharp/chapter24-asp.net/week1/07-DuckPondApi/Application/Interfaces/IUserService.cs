@@ -1,6 +1,6 @@
 using DuckPondApi.Models;
 
-namespace DuckPondApi.Services;
+namespace DuckPondApi.Application.Interfaces;
 
 public interface IUserService
 {

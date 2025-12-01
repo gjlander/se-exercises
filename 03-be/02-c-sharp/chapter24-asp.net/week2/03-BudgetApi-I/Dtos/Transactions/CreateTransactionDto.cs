@@ -12,5 +12,7 @@ public record CreateTransactionDto(
     string Description,
 
     [property: Required]
-    decimal Amount
+    decimal Amount,
+
+    DateOnly? Date
 );

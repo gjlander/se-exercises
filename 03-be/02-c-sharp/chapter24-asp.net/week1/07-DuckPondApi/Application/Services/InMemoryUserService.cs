@@ -1,6 +1,7 @@
 using DuckPondApi.Models;
+using DuckPondApi.Application.Interfaces;
 
-namespace DuckPondApi.Services;
+namespace DuckPondApi.Application.Services;
 
 public class InMemoryUserService : IUserService
 {

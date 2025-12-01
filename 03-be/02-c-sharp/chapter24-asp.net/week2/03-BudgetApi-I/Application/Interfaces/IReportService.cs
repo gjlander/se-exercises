@@ -1,7 +1,7 @@
 using BudgetApi.Dtos.Reports;
 
 
-namespace Application.Interfaces;
+namespace BudgetApi.Application.Interfaces;
 
 public interface IReportService
 {

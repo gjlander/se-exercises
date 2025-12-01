@@ -1,53 +1,43 @@
-// using BudgetApi.Models;
-// using BudgetApi.Application.Interfaces;
+using BudgetApi.Models;
+using BudgetApi.Application.Interfaces;
+using BudgetApi.Dtos.Reports;
 
-// namespace BudgetApi.Application.Services;
 
-// public class InMemoryUserService : IUserService
-// {
-//     private readonly Dictionary<Guid, User> _users = new();
+namespace BudgetApi.Application.Services;
 
-//     public Task<User?> GetAsync(Guid id)
-//     {
-//         _users.TryGetValue(id, out var user);
-//         return Task.FromResult(user);
-//     }
+public class ReportServiceMock(ITransactionService transactionService) : IReportService
+{
+  private readonly ITransactionService _transactionService = transactionService;
 
-//     public Task<IReadOnlyList<User>> ListAsync()
-//     {
-//         return Task.FromResult<IReadOnlyList<User>>(_users.Values.ToList());
-//     }
+  public async Task<SummaryReportResponseDto> GetSummaryAsync(DateOnly start, DateOnly end, string type)
+  {
+    if (start > end) throw new ArgumentException("Start date must be before end date.");
 
-//     public Task<User> CreateAsync(string name, string email)
-//     {
-//         var user = new User
-//         {
-//             Id = Guid.NewGuid(),
-//             Name = name,
-//             Email = email,
-//             CreatedAt = DateTimeOffset.UtcNow
-//         };
+    var transactions = await _transactionService.ListAsync();
+    var requestedType = string.IsNullOrWhiteSpace(type) ? null : type;
 
-//         _users[user.Id] = user;
-//         return Task.FromResult(user);
-//     }
+    var transactionsInRange = transactions.Where(t =>
+  {
+    bool isInDateRange = t.Date >= start && t.Date <= end;
 
-//     public Task<User?> UpdateAsync(Guid id, string? name, string? email)
-//     {
-//         if (!_users.TryGetValue(id, out var user))
-//             return Task.FromResult<User?>(null);
+    if (requestedType is null) return isInDateRange;
 
-//         if (name != null)
-//             user.Name = name;
+    if (string.Equals(requestedType, "income", StringComparison.OrdinalIgnoreCase))
+      return isInDateRange && t.Type == TransactionType.Income;
 
-//         if (email != null)
-//             user.Email = email;
+    if (string.Equals(requestedType, "expense", StringComparison.OrdinalIgnoreCase))
+      return isInDateRange && t.Type == TransactionType.Expense;
 
-//         return Task.FromResult<User?>(user);
-//     }
+    return isInDateRange;
+  }).ToArray();
 
-//     public Task<bool> DeleteAsync(Guid id)
-//     {
-//         return Task.FromResult(_users.Remove(id));
-//     }
-// }
+    var totalIncome = transactionsInRange.Where(t => t.Type == TransactionType.Income).Sum(t => t.Amount);
+    var totalExpense = transactionsInRange.Where(t => t.Type == TransactionType.Expense).Sum(t => t.Amount);
+    var net = totalIncome - totalExpense;
+
+    return new SummaryReportResponseDto(start, end, totalIncome, totalExpense, net);
+
+  }
+
+
+}

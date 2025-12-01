@@ -1,3 +1,5 @@
+namespace DuckPondApi.Api.Filters;
+
 public static class ValidationExtensions
 {
     public static RouteHandlerBuilder WithValidation<T>(this RouteHandlerBuilder handler) where T : class

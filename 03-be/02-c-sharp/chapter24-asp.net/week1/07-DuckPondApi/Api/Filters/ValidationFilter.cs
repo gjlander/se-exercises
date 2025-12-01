@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace DuckPondApi.Api.Filters;
+
 public sealed class ValidationFilter<T> : IEndpointFilter where T : class
 {
     public async ValueTask<object?> InvokeAsync(EndpointFilterInvocationContext context, EndpointFilterDelegate next)

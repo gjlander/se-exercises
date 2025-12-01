@@ -6,8 +6,8 @@ using BudgetApi.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddSingleton<IUserService, InMemoryUserService>();
 builder.Services.AddSingleton<ITransactionService, TransactionServiceMock>();
+builder.Services.AddSingleton<IReportService, ReportServiceMock>();
 builder.Services.AddOpenApi();
 builder.Services.AddProblemDetails();
 
@@ -22,7 +22,7 @@ if (app.Environment.IsDevelopment())
 app.UseExceptionHandler();
 app.UseStatusCodePages();
 
-// app.MapUserEndpoints();
+app.MapReportEndpoints();
 app.MapTransactionEndpoints();
 
 app.Run();

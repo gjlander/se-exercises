@@ -10,5 +10,7 @@ public record UpdateTransactionDto(
     [property: StringLength(1_000, MinimumLength = 1)]
     string? Description,
 
-    decimal? Amount
+    decimal? Amount,
+
+    DateOnly? Date
 );

@@ -1,8 +1,10 @@
 using DuckPondApi.Dtos.Users;
 using DuckPondApi.Dtos.Ducks;
-using DuckPondApi.Services;
+using DuckPondApi.Application.Interfaces;
+using DuckPondApi.Api.Filters;
 
-namespace DuckPondApi.Endpoints;
+
+namespace DuckPondApi.Api.Endpoints;
 
 public static class UserEndpoints
 {

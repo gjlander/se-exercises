@@ -1,7 +1,8 @@
 
 using Scalar.AspNetCore;
-using DuckPondApi.Endpoints;
-using DuckPondApi.Services;
+using DuckPondApi.Api.Endpoints;
+using DuckPondApi.Application.Services;
+using DuckPondApi.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

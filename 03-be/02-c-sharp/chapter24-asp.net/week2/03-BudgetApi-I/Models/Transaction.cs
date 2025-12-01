@@ -7,6 +7,6 @@ public class Transaction
     public TransactionType Type { get; set; }
     public string Description { get; set; } = string.Empty;
     public decimal Amount { get; set; }
-    public DateOnly Date { get; set; } = DateOnly.FromDateTime(DateTime.Now);
+    public DateOnly Date { get; set; } = DateOnly.FromDateTime(DateTime.UtcNow);
 
 }
