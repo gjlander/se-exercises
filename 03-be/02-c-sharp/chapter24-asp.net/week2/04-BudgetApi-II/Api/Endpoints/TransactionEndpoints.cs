@@ -1,6 +1,6 @@
 using BudgetApi.Dtos.Transactions;
 using BudgetApi.Application.Interfaces;
-
+using BudgetApi.Api.Filters;
 
 namespace BudgetApi.Api.Endpoints;
 
@@ -42,7 +42,8 @@ public static class TransactionEndpoints
             return TypedResults.Created(location, transactionDto);
 
         })
-        .Produces<TransactionResponseDto>(StatusCodes.Status201Created);
+        .Produces<TransactionResponseDto>(StatusCodes.Status201Created)
+        .WithValidation<CreateTransactionDto>();
 
         // PATCH /transactions/{id:guid}
         group.MapPatch("/{id:guid}", async (Guid id, UpdateTransactionDto updateTransactionDto, ITransactionService transactionService) =>
@@ -54,6 +55,7 @@ public static class TransactionEndpoints
             var transactionDto = new TransactionResponseDto(transaction.Id, transaction.Timestamp, transaction.Type, transaction.Description, transaction.Amount, transaction.Date);
             return TypedResults.Ok(transactionDto);
         })
+        .WithValidation<UpdateTransactionDto>()
         .Produces<TransactionResponseDto>(StatusCodes.Status200OK)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound);
