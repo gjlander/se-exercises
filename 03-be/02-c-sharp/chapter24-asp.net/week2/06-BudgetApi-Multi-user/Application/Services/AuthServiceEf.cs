@@ -59,12 +59,12 @@ public class AuthService : IAuthService
     );
   }
 
-  public async Task<object?> GetCurrentUserAsync(string userId)
+  public async Task<MeResponseDto?> GetCurrentUserAsync(string userId)
   {
     var user = await _userManager.FindByIdAsync(userId);
     if (user is null)
       return null;
 
-    return new { id = user.Id, displayName = user.Name };
+    return new MeResponseDto(user.Id, user.Email ?? "No email provided.", user.Name);
   }
 }
