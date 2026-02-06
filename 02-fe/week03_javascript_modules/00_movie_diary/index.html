@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <script type="module" src="src/main.js" defer></script>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-slate-500 text-white">
+        <nav class="p-4 bg-slate-600">
+            <ul class="flex gap-4">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="src/journal.html">Journal</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section
+                class="flex flex-col gap-4 items-center bg-slate-400 w-3/4 m-auto py-8 mt-8 rounded-lg relative"
+            >
+                <h2 class="text-4xl">Search</h2>
+                <form id="search-form" class="w-full flex justify-center gap-2">
+                    <input
+                        id="search-input"
+                        class="p-2 rounded-lg w-3/4 text-black"
+                        type="search"
+                        placeholder="Move title..."
+                    />
+                    <button
+                        class="bg-blue-500 px-4 py-2 rounded-lg"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+                <div
+                    id="results-container"
+                    class="bg-slate-200 w-full absolute top-full rounded-lg text-black p-4 hidden flex-col gap-2"
+                ></div>
+            </section>
+            <section
+                id="movies-container"
+                class="grid grid-cols-4 grid-rows-5 gap-y-8 gap-x-4 p-6"
+            ></section>
+        </main>
+    </body>
+</html>

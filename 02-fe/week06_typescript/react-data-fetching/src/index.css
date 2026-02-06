@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+.instructions-container {
+  * {
+    all: revert;
+    img {
+      @apply max-w-full h-auto border-4 rounded-lg border-primary;
+    }
+  }
+}

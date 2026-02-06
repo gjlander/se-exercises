@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign Up Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Register for a Bootcamp!</h1>
+            <p>
+                Ready to start your coding journey? Fill out this form to sign
+                up for our bootcamps!
+            </p>
+        </header>
+        <main>
+            <fieldset>
+                <legend><h2>Sign Up Here</h2></legend>
+                <form>
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        required
+                        placeholder="John Doe"
+                    />
+                    <br />
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        required
+                        placeholder="johndoe@example.com"
+                    /><br />
+                    <label for="tel">Phone:</label>
+                    <input
+                        type="tel"
+                        id="tel"
+                        required
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="123-456-7890"
+                    /><br />
+                    <label for="bootcamp">Bootcamp Interest:</label> <br />
+                    <select id="bootcamp" name="bootcamp" required>
+                        <br />
+                        <option value="">Please select a bootcamp</option>
+                        <option value="wd">Web Development</option>
+                        <option value="ds">Data Science</option>
+                        <option value="dpd">Digital Product Design</option>
+                        <option value="ma">Marketing Analytics</option>
+                    </select>
+                    <br />
+                    <button type="submit">Submit</button>
+                </form>
+            </fieldset>
+        </main>
+    </body>
+</html>

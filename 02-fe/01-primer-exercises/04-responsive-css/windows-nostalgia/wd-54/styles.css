@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 2rem;
+    background-color: skyblue;
+}
+.window {
+    border: solid 3px white;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header {
+    color: white;
+    background: rgb(13, 37, 105);
+    background: linear-gradient(
+        90deg,
+        rgba(13, 37, 105, 1) 0%,
+        rgba(170, 204, 241, 1) 100%
+    );
+    padding: 0.25rem 1rem;
+    font-weight: bold;
+}
+
+main {
+    background-color: #c0c0c0;
+    padding: 1rem;
+}
+
+.text-content {
+    padding: 1rem 0;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 1px #808181;
+    image-rendering: pixelated;
+    margin-right: 0.4rem;
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+.btn-wrapper {
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+}
+button {
+    background-color: #c0c0c0;
+    border: black 2px solid;
+    border-top: white 2px solid;
+    border-left: white 2px solid;
+    float: right;
+    padding: 2px 4px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 32px;
+    }
+
+    .window {
+        width: 800px;
+    }
+    img {
+        width: 60px;
+        height: 60px;
+        box-shadow: 4px 4px 2px #808181;
+    }
+    button {
+        padding: 6px 10px;
+        border: black 3px solid;
+        border-top: white 3px solid;
+        border-left: white 3px solid;
+    }
+}

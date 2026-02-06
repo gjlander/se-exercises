@@ -1,0 +1,7 @@
+{
+  "user": {
+    "id": 4,
+    "email": "user@example.com"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZW1haWwiOiJ1c2VyQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM4OTM3NzIyLCJleHAiOjE3NDI1Mzc3MjJ9.OiQU4FD5cESxmiqsUk4oLUevTFKq9wsggVH-7CD953o"
+}

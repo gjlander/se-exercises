@@ -3,6 +3,7 @@ using TravelApi.Endpoints;
 using TravelApi.Models;
 using TravelApi.Services;
 using TravelApi.Infrastructure;
+using TravelApi.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
@@ -89,6 +90,11 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.MapScalarApiReference();
+    using (var scope = app.Services.CreateScope())
+    {
+        var seeder = scope.ServiceProvider.GetRequiredService<DbSeeder>();
+        await seeder.SeedAsync();
+    }
 }
 
 app.UseCors();
