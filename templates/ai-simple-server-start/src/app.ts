@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { completionRoute } from '#routes';
+import { completionRoutes } from '#routes';
 import { errorHandler, notFoundHandler } from '#middleware';
 
 const app = express();
@@ -8,7 +8,7 @@ const port = process.env.PORT || '5050';
 
 app.use(cors({ origin: '*' }), express.json());
 
-app.use('/ai', completionRoute);
+app.use('/ai', completionRoutes);
 
 app.use('*splat', notFoundHandler);
 app.use(errorHandler);

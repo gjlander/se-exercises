@@ -3,8 +3,8 @@ import { createInMemoryChat } from '#controllers';
 import { validateBody } from '#middleware';
 import { promptSchema } from '#schemas';
 
-const completionRoute = Router();
+const completionRoutes = Router();
 
-completionRoute.post('/in-memory-chat', validateBody(promptSchema), createInMemoryChat);
+completionRoutes.post('/in-memory-chat', validateBody(promptSchema), createInMemoryChat);
 
-export default completionRoute;
+export default completionRoutes;

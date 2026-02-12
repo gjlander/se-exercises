@@ -1,1 +1,1 @@
-export { default as completionRoute } from './completionRoutes.ts';
+export { default as completionRoutes } from './completionRoutes.ts';
