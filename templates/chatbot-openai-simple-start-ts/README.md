@@ -7,7 +7,7 @@ Create a React project with a chat-like interface that can preserve a chat's his
 ## Requirements
 
 - Submitting the form sends a `POST` request to the `ai/chat` endpoint of the AI simple server
-- a `messages` state keeps track of the chat history, and renders chat UI
+- a `messages` state to keep track of the chat history, and render chat UI
   - message UI should reflect if it's from the user or AI assistant
   - `messages` should be an array of objects that matches the structure that OpenAI stores the chat history
 - a `chatId` state that defaults to the value of a local storage item named `chatId`
@@ -20,7 +20,6 @@ Create a React project with a chat-like interface that can preserve a chat's his
 
 - Fork and clone this repo
 - Create a `.env.local` file
-
   - set `VITE_AI_SERVER_URL` to `http://localhost:5050`
 
 - Install dependencies by running `npm i`

@@ -1,6 +1,6 @@
 import type { RequestHandler } from 'express';
-import OpenAI from 'openai';
 import { isValidObjectId } from 'mongoose';
+import OpenAI from 'openai';
 import {
   Agent,
   OpenAIChatCompletionsModel,
@@ -13,13 +13,10 @@ import {
   type InputGuardrail
 } from '@openai/agents';
 import { z } from 'zod';
-import type { promptBodySchema } from '#schemas';
+import type { PostDTO, PromptDTO } from '#types';
 import { Chat, Post } from '#models';
-import type { PostDTO } from '#types';
 
-type IncomingPrompt = z.infer<typeof promptBodySchema>;
-type ResponseCompletion = { completion: string };
-type ResponseWithId = ResponseCompletion & { chatId: string };
+type CompletionDTO = { completion: string; chatId: string };
 
 export const getChatHistory: RequestHandler = async (req, res) => {
   const { id } = req.params;
@@ -33,26 +30,21 @@ export const getChatHistory: RequestHandler = async (req, res) => {
   res.json(chat);
 };
 
-export const createAgenticChat: RequestHandler<unknown, ResponseWithId, IncomingPrompt> = async (
-  req,
-  res
-) => {
+export const createChat: RequestHandler<{}, CompletionDTO, PromptDTO> = async (req, res) => {
   const { prompt, chatId } = req.body;
   const { user: userInfo } = req;
-  const signedIn = userInfo?.id ? true : false;
+  const signedIn = !!userInfo?.id;
 
-  // console.log('userInfo:', userInfo);
-  let currentChat = await Chat.findById(chatId);
+  // let currentChat: InstanceType<typeof Chat>;
+  let currentChat: InstanceType<typeof Chat>;
 
-  if (!currentChat) {
+  if (chatId) {
+    currentChat = (await Chat.findById(chatId)) || (await Chat.create({}));
+  } else {
     currentChat = await Chat.create({});
   }
 
-  // add user message to database history
-  currentChat.history.push({
-    role: 'user',
-    content: prompt
-  });
+  currentChat.history.push({ role: 'user', content: prompt });
 
   const formattedHistory = currentChat.history.map(entry =>
     entry.role === 'user' ? user(entry.content) : assistant(entry.content)
@@ -62,11 +54,12 @@ export const createAgenticChat: RequestHandler<unknown, ResponseWithId, Incoming
     apiKey: process.env.AI_API_KEY,
     baseURL: process.env?.AI_URL
   });
+
   // Set the default OpenAI client for the agent framework
   // This register our custom client so that the agent can use it for making requests
   setDefaultOpenAIClient(client);
 
-  const model = new OpenAIChatCompletionsModel(client, process.env.AI_MODEL || 'gemini-2.5-flash');
+  const model = new OpenAIChatCompletionsModel(client, process.env.AI_MODEL || 'gemini-2.0-flash');
 
   const getPostsTool = tool({
     name: 'get_posts',
@@ -150,7 +143,7 @@ export const createAgenticChat: RequestHandler<unknown, ResponseWithId, Incoming
       completion: result.finalOutput || 'Something went wrong, please ask again.',
       chatId: currentChat._id.toString()
     });
-  } catch (error: unknown) {
+  } catch (error) {
     if (error instanceof InputGuardrailTripwireTriggered) {
       res.json({
         completion: 'That is outside of my abilities, I only answer questions about travel.',

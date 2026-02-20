@@ -11,6 +11,7 @@ const server = new McpServer({
 	version: '1.0.0'
 });
 
+// Add an addition tool
 server.registerTool(
 	'search_artworks',
 	{
@@ -51,9 +52,7 @@ server.registerTool(
 				content: [
 					{
 						type: 'text',
-						text: `Error: ${
-							error instanceof Error ? error.message : 'Unknown error occurred'
-						}`
+						text: `Error: ${error instanceof Error ? error.message : 'Unknown error occurred'}`
 					}
 				]
 			};
@@ -91,9 +90,7 @@ server.registerResource(
 				contents: [
 					{
 						uri: uri.href,
-						text: `Error: ${
-							error instanceof Error ? error.message : 'Unknown error occurred'
-						}`
+						text: `Error: ${error instanceof Error ? error.message : 'Unknown error occurred'}`
 					}
 				]
 			};
