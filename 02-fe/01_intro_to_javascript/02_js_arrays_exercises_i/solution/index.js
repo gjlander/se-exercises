@@ -120,5 +120,34 @@ const numArray = [10, 20, 30, 40, 50];
 // }
 //3. Iterate Over the Array with a for...of Loop:
 for (const num of numArray) {
-    console.log(num);
+	console.log(num);
 }
+
+// JS Basics Loops
+//Loops
+const animals = ['lion', 'tiger', 'bear', 'giraffe', 'zebra', 'monkey'];
+let totalAnimals = 0;
+for (let i = 0; i < animals.length; i++) {
+	totalAnimals++;
+}
+// console.log(`There are ${totalAnimals} animals in the zoo.`);
+
+let animals5OrMore = 0;
+let i = 0;
+while (i < animals.length) {
+	if (animals[i].length >= 5) {
+		animals5OrMore++;
+	}
+	i++;
+}
+// console.log(`There are ${animals5OrMore} animals with 5 or more letters`);
+
+let count = 0;
+do {
+	if (animals[count].startsWith('m')) {
+		break;
+	}
+	count++;
+} while (count < animals.length);
+
+// console.log(`Count until m: ${count}`);
