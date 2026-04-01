@@ -43,7 +43,8 @@ public class JournalServiceTests
   {
     IJournalStore fakeStore = new FakeJournalStore();
     var service = new JournalService(fakeStore);
-    List<string> testEntries = ["day",
+    string[] testEntries = [
+    "day",
     "Day" ,
     "dAy" ,
     "daY" ,

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uYk47E6H+/w=",
+  "dgSpecHash": "HxHj930qDX4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\05-JournalSolution\\JournalApp\\JournalApp.csproj",
+  "projectFilePath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\05-JournalSolution\\JournalApp\\JournalApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\garre\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
     "C:\\Users\\garre\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3UTqH1R1Sjo=",
+  "dgSpecHash": "Z9+4nnjF9tw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\05-JournalSolution\\JournalApp.Tests\\JournalApp.Tests.csproj",
+  "projectFilePath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\05-JournalSolution\\JournalApp.Tests\\JournalApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\garre\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\garre\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
