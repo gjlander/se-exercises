@@ -1,14 +1,3 @@
-// Selecting elements
-// ==================
-
-// #### Objective
-
-// In this exercise, you will practice using the DOM API to interact with a simple HTML page. You'll select elements, log them to the console, modify their styles, and add content dynamically.
-
-// All the instructions are supposed to be implemented from within the JavaScript file, yes you could do it from the CSS one but where's the fun in that?
-
-// ### Instructions
-
 // 1.  **Select Elements and Log to Console**:
 
 //     *   Select the `h1` element inside the `.hero-content` div and log it to the console.

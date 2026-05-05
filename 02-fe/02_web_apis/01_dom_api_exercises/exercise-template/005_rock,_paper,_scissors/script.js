@@ -1,12 +1,3 @@
-// Rock, Paper, Scissors
-// =====================
-
-// #### Objective
-
-// In this exercise, you'll build a simple Rock-Paper-Scissors game using HTML, CSS (via Tailwind CSS), and JavaScript. This game will allow a user to play against the computer, and it will keep track of the score.
-
-// #### Instructions and setup
-
 // 1.  **HTML with Tailwind CSS:**
 
 //     *   A card at the top to display the score (User vs. Computer).

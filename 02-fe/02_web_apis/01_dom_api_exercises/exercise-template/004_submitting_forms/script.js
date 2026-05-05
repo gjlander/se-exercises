@@ -1,12 +1,3 @@
-// Submitting forms
-// ================
-
-// ### Objective
-
-// In this exercise, you will create a simple contact form and use JavaScript to handle the form submission, validate the fields, and display the submitted data.
-
-// ### Instructions:
-
 // *   Add an event listener to handle form submission.
 // *   Validate that all fields are not empty.
 //     *   If validation passes, output the form data to the console and display it in the `p` element as a list (`ul`)

@@ -1,14 +1,3 @@
-// Creating elements
-// =================
-
-// #### Objective
-
-// In this exercise, you will use JavaScript to create a complete web page from scratch.
-
-// You'll dynamically generate all the HTML content and apply CSS styles using JavaScript's `element.style` property.
-
-// ### Instructions
-
 // 1.  **Create the HTML Structure**:
 
 //     *   Create a `header` element with a `nav` inside it.
