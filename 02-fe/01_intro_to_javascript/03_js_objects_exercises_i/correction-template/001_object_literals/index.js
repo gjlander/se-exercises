@@ -1,12 +1,3 @@
-// Object Literals
-// ===============
-
-// #### Objective
-
-// Learn how to initialize an object using object literals in JavaScript and understand how to define properties and methods within an object.
-
-// #### Instructions
-
 // 1.  Create an object called `book` using object literal syntax.
 // 2.  The `book` object should have the following properties:
 //     *   `title`: a string representing the title of the book.

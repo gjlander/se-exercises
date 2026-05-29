@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["04_parcel_tutorial.30a9a73d.css","src/styles.css"],"sourcesContent":["h1 {\n  color: #ff69b4;\n  font-family: cursive;\n}\n/*# sourceMappingURL=04_parcel_tutorial.30a9a73d.css.map */\n","h1 {\r\n  color: hotpink;\r\n  font-family: cursive;\r\n}\r\n"],"names":[],"version":3,"file":"04_parcel_tutorial.30a9a73d.css.map"}

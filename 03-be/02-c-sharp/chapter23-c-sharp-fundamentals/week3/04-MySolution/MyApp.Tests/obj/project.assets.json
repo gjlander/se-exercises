@@ -964,11 +964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp.Tests\\MyApp.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp.Tests\\MyApp.Tests.csproj",
       "projectName": "MyApp.Tests",
-      "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp.Tests\\MyApp.Tests.csproj",
+      "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp.Tests\\MyApp.Tests.csproj",
       "packagesPath": "C:\\Users\\garre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp.Tests\\obj\\",
+      "outputPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\garre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -983,8 +983,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp\\MyApp.csproj": {
-              "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp\\MyApp.csproj"
+            "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp\\MyApp.csproj": {
+              "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\04-MySolution\\MyApp\\MyApp.csproj"
             }
           }
         }
@@ -999,7 +999,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1033,12 +1033,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

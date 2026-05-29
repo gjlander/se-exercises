@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\03-AsyncExercise.csproj",
+      "projectUniqueName": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\03-AsyncExercise.csproj",
       "projectName": "03-AsyncExercise",
-      "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\03-AsyncExercise.csproj",
+      "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\03-AsyncExercise.csproj",
       "packagesPath": "C:\\Users\\garre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\obj\\",
+      "outputPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter23-c-sharp-fundamentals\\week3\\03-AsyncExercise\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\garre\\AppData\\Roaming\\NuGet\\NuGet.Config"

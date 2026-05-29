@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj": {}
+    "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj": {
+    "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj",
+        "projectUniqueName": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj",
         "projectName": "03-FiltersAndValidationLecture",
-        "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj",
+        "projectPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\03-FiltersAndValidationLecture.csproj",
         "packagesPath": "C:\\Users\\garre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\garre\\Desktop\\exercises\\se-exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\obj\\",
+        "outputPath": "C:\\Users\\garre\\Desktop\\exercises\\03-be\\02-c-sharp\\chapter24-asp.net\\week1\\03-FiltersAndValidationLecture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\garre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -54,6 +54,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -62,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
