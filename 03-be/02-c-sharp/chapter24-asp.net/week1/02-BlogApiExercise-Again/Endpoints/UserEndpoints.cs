@@ -1,4 +1,3 @@
-using BlogApi.Dtos;
 using BlogApi.Dtos.Users;
 using BlogApi.Dtos.Posts;
 using BlogApi.Services.Interfaces;

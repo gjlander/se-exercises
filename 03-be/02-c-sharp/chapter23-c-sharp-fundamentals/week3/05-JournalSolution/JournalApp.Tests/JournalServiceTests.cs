@@ -61,7 +61,6 @@ public class JournalServiceTests
     Assert.Equal(5, searchResults.Count);
     foreach (var result in searchResults)
     {
-
       Assert.Contains("day", result.Content.ToLower());
       Assert.DoesNotContain("something", result.Content.ToLower());
     }
